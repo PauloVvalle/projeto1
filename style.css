@@ -1,0 +1,572 @@
+* {
+    margin: 0;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+    max-width: 100%;
+    max-height: 100%;
+    /* color: white; */
+}
+
+:root {
+    /* --borda-border: 1px solid rgb(255, 0, 0); */
+    --foot-bg: #f4f3ef;
+    --mid-bg: #fff;
+}
+
+:root {
+    --padding: 0px; 
+}
+
+:root {
+    --fonte-footer: #107070;
+    --fonte-foot: 'Raleway', sans-serif;
+    --fonte-color-perfil: #000000;
+    --fonte-color-disc: #818181;
+}
+
+:root {
+    --fonte-size-meio: 22px;
+    --fonte-size-post: 12px;
+}
+
+/* topo do site ---------------------------------------------------------*/
+.textotitulos {
+    font-family: var(--fonte-foot);
+}
+
+header {
+    border: var(--borda-border);
+}
+
+nav {
+    background-color: #fff;
+    overflow: hidden;
+    position: fixed;
+    width: 90%;
+    margin-left: 80px;
+    z-index: 1;
+}
+
+nav .logo {
+    float: left;
+    display: block;
+    padding: 0 16px;
+    margin: 0;
+}
+
+nav a {
+    color: var(--fonte-color-perfil);
+    text-decoration: none;
+    padding: 10px 16px 0 16px;
+}
+
+.texto1 {
+    font-size: 50px;
+    padding-top: 100px;
+    color: white;
+    text-align: center;
+}
+
+.texto2 {
+    font-size: medium;
+}
+
+.top2 {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 10px 16px 0 0;
+}
+
+.topimg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vr;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url('img/topimg1.jpg');
+}
+
+.top1 {
+    border: var(--borda-border);
+    height: 600px;
+    /* background-image: url('img/grill-with-variety-meats-it.jpg'); */
+}
+
+/* corpo do site ---------------------------------------------------------*/
+
+.meio {
+    display: flex;
+    justify-content: space-evenly;
+    border: var(--borda-border);
+    height: 1400px;
+    background-color: var(--foot-bg);
+}
+
+/* pagina de contato */
+.contato-pag {
+    display: flex;
+    justify-content: space-evenly;
+    border: var(--borda-border);
+    height: 300px;
+    background-color: var(--foot-bg);
+}
+/* pagina de contato */
+/* pagina de post */
+.meio-espaço {
+    padding: 60px 0 60px 0;
+    height: 100%;
+}
+.borda-post-pag {
+    display: flex;
+    border: 1px solid #e7e7e7;
+    height: 1200px;
+    padding: 60px;
+    margin: 50px 100px;
+}
+.post-pag {
+    display: flex;
+    align-content: space-around;
+    border: var(--borda-border);
+    width: 100%;
+    background-color: var(--mid-bg);
+
+}
+.post-pag-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 100px;
+}
+/* pagina de post */
+.meio2 {
+    display: flex;
+    flex-direction: column;
+
+    list-style: none;
+    padding: 50px 0 50px 100px;
+}
+
+.meio4 {
+    padding: 50px 0 0 50px;
+    width: 641px;
+    height: 304px;
+    list-style: none;
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+}
+
+.post1 {
+    width: 300px;
+    border: var(--borda-border);
+    margin: 0;
+
+}
+
+.direito1 {
+    padding-top: 52px;
+    border: var(--borda-border);
+    width: 300px;
+}
+
+.direito2 {
+    width: 241px;
+    height: 210px;
+}
+
+.direito3 {
+    height: 500px;
+    padding: 30px;
+    margin: 0;
+}
+
+.post2 {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    color: var(--fonte-footer);
+    border: var(--borda-border);
+    background-color: white;
+}
+
+p {
+    font-size: var(--fonte-size-meio);
+}
+
+.post-p1 {
+    padding: 0 0 0 12px;
+}
+
+
+.perfil-post {
+    display: flex;
+    margin: 20px 0 0 12px;
+    color: var(--fonte-color-perfil);
+    font-size: var(--fonte-size-post);
+}
+
+.post-admin {
+    display: flex;
+}
+
+.data-e-hora {
+    display: flex;
+
+}
+
+
+
+.ham1 {
+    width: 300px;
+    height: 260px;
+}
+
+.ladodireito {
+    padding: 50px 100px 50px 0;
+    margin-top: 300px;
+    display: flex;
+    width: 300px;
+    height: 700px;
+}
+
+.listadireita {
+    font-size: xx-large;
+    display: flex;
+    padding: 0;
+}
+
+.texto-post {
+    padding: 0 0 20px;
+
+}
+
+.ham2 {
+    width: 500px;
+    height: 400px;
+}
+
+.postim1 {
+    background-image: cover;
+}
+
+.disc1 {
+    font-size: 5px;
+    margin-bottom: 30px;
+}
+
+.texto-disc {
+    color: var(--fonte-color-disc);
+    font-size: var(--fonte-size-post);
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: 10px;
+}
+
+.texto-disc1 {
+    color: var(--fonte-color-disc);
+    font-size: var(--fonte-size-post);
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.linkdireita {
+    color: var(--fonte-color-disc);
+    text-decoration: none;
+    display: flex;
+    padding: 10px;
+}
+
+.meiohr{
+    padding:100px;
+    background-color: var(--foot-bg);
+}
+
+hr {
+    border: 1px solid #107070;
+    padding-left: 10px;
+}
+/* .corhr {} */
+
+.meioimg {
+    border: var(--borda-border);
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vr;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url('img/meioimg.jpg');
+}
+
+.cor-bg-hr {
+    background-color: var(--mid-bg);
+}
+
+/* footer do site ---------------------------------------------------------*/
+
+.foot1 {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    border: var(--borda-border);
+    background-color: var(--foot-bg);
+    color: var(--fonte-footer);
+    height: 20rem;
+    /* background-color: #b09e80; */
+}
+
+
+.foot2 {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.cop1 {
+    padding-top: 35px;
+    color: white;
+    text-align: center;
+    background-color: #107070;
+    height: 5rem;
+}
+.cop1 p {
+    font-size: 14px;
+}
+
+.buttonfoot {
+    padding: 3px 3px 3px 21px;
+}
+
+#linha-vertical {
+    max-width: 10px;
+    height: 20px;
+    padding-left: 10px;
+    border-right: 2px solid #107070;
+}
+
+.fooot {
+    /* font-family: var(--fonte-foot); */
+    padding-left: 10px;
+}
+
+button {
+    background-color: #107070;
+}
+
+.corfot1 {
+    font-family: var(--fonte-foot);
+    /* text-shadow: 2px 2px var(--fonte-footer); */
+}
+
+
+/* Fomulario --------------------------------------------------------- */
+
+.contatoform {
+    text-align: center;
+}
+
+.formulario {
+    margin: 50px;
+    color: green;
+}
+input[type=text] {
+    margin-bottom: 5px;
+}
+
+
+input[type=submit] {
+    color: white;
+    background-color: #04AA6D;
+    border: none;
+    padding: 10px 85px;
+    text-decoration: none;
+    margin: 4px 4px 0 60px;
+    cursor: pointer;
+  }
+
+input[type=text]:focus {
+    background-color: var(--fonte-footer);
+  }
+
+/* site no modo --------------------------------------------------------- */
+@media (max-width: 1210px) {
+    .meio {
+        height: 2200px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .meio2 {
+        margin-left: 150px;
+    }
+
+    .ladodireito {
+        padding: 50px 100px 50px 0;
+        margin: 0 0 0 450px;
+        display: flex;
+        width: 300px;
+        height: 700px;
+    }
+    .formulario {
+        padding-top: 50px;
+    }
+    .contato-pag {
+        display: flex;
+        justify-content: space-evenly;
+        border: var(--borda-border);
+        height: 300px;
+        background-color: var(--foot-bg);
+        align-items: center;
+    }
+}
+/* site no modo --------------------------------------------------------- */
+@media (max-width: 975px) {
+
+    .meio {
+        height: 2200px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .meio2 {
+        margin-left: 50px;
+    }
+
+    .ladodireito {
+        padding: 50px 100px 50px 0;
+        margin: 0 0 0 200px;
+        display: flex;
+        width: 300px;
+        height: 700px;
+    }
+    .formulario {
+        padding-top: 50px;
+    }
+    .contato-pag {
+        display: flex;
+        justify-content: space-evenly;
+        border: var(--borda-border);
+        height: 300px;
+        background-color: var(--foot-bg);
+        align-items: center;
+    }
+
+}
+/* site no modo celular--------------------------------------------------------- */
+@media (max-width: 767px) {
+    nav {
+        display: flex;
+        background-color: #fff;
+        overflow: hidden;
+        position: fixed;
+        width: 80%;
+        z-index: 1;
+        margin: 0;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 0 60px;
+    }
+
+
+
+    nav .logo {
+        display: flex;
+        padding: 0 16px;
+    }
+
+    .top2 {
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 10px 16px 0 0;
+    }
+
+    .meio {
+        height: 2700px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .meio2 {
+        display: flex;
+        list-style: none;
+        /* padding: 50px 0 50px 100px; */
+        flex-direction: column;
+        padding: 0;
+        margin-right: 50px;
+    }
+    .meio4 {
+        /* padding: 50px 0 0 50px; */
+        width: 641px;
+        height: 304px;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .ladodireito {
+        display: flex;
+        padding: 0;
+        justify-content: center;
+    }
+
+    .foot1 {
+        display: flex;
+        font-size: 12px;
+    }
+    .foot2 p {
+        display: flex;
+        flex-direction: row;
+        font-size: 14px;
+    }
+    #linha-vertical {
+    max-width: 10px;
+    height: 15px;
+    padding-left: 10px;
+    border-right: 2px solid #107070;
+    }
+
+    .buttonfoot {
+        padding: 0;
+    }
+    button {
+        font-size: 10px;
+        padding: 0.5px 2px 0.5px 2px;
+    }
+    .cop1 p {
+        font-size: 12px;
+    }
+
+
+
+
+
+
+    /* pagina contato */
+    .formulario {
+        padding-top: 50px;
+    }
+    .contato-pag {
+        display: flex;
+        justify-content: space-evenly;
+        border: var(--borda-border);
+        height: 300px;
+        background-color: var(--foot-bg);
+        align-items: center;
+    }
+}
